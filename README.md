@@ -1,4 +1,4 @@
-# MarkView 📄⚡
+# MarkView 
 
 > **MarkView** is a modern, high-performance cross-platform desktop Markdown application engineered with **Tauri 2**, **Rust**, **React 19**, **TypeScript**, and **Tailwind CSS**. Built from the ground up for developers, technical writers, and researchers who need a fast, distraction-free, and secure local reading environment.
 
@@ -15,12 +15,12 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 │                │                                                            │
 │  EXPLORER      │  # Understanding Distributed Consensus                    │
 │                │                                                            │
-│  📁 consensus  │  ## 1. Introduction                                        │
+│   consensus  │  ## 1. Introduction                                        │
 │    ├ raft.md   │  ───────────────                                           │
 │    ├ paxos.md  │  Consensus algorithms are fundamental to building          │
 │    └ zab.md    │  fault-tolerant distributed systems...                     │
 │                │                                                            │
-│  📁 storage    │  ```rust                                                   │
+│   storage    │  ```rust                                                   │
 │    ├ lsm.md    │  pub struct RaftNode<S: Storage> {                         │
 │    └ wal.md    │      state: NodeState,                                     │
 │                │      current_term: u64,                                    │
@@ -34,7 +34,7 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 📖 High-Fidelity Markdown Rendering
 - **CommonMark & GFM Support**: Full support for tables, task lists (`- [x]`), strikethrough, autolinks, and footnotes.
@@ -44,26 +44,26 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 - **YAML Frontmatter**: Automatic extraction and structured visual cards for document metadata (`title`, `description`, `author`, `date`, `tags`, and custom keys).
 - **Interactive Heading Anchors**: Auto-generated permalinks for all heading levels (H1–H6).
 
-### 🗂️ Native File & Workspace Management
+###  Native File & Workspace Management
 - **Single File & Folder Browsing**: Open standalone `.md` files or open entire directories.
 - **Recursive Directory Scanner**: Efficient Rust-powered directory traverser with automatic pruning of non-markdown branches and hidden/system directories (`.git`, `node_modules`, `target`, `dist`, etc.).
 - **Real-Time Filesystem Watcher**: Background debounced filesystem monitoring (`notify`) that detects external edits, re-renders the document automatically, and preserves the user's scroll position.
 - **Recent Files & Workspaces**: Quick-access history of recently visited files and folders with timestamps and individual removal.
 - **Session Restoration**: Seamlessly restores your last open folder and document on launch.
 
-### 🔍 Lightning-Fast Search
+###  Lightning-Fast Search
 - **Quick Open (`Ctrl/Cmd + P`)**: Fuzzy file finder with instant filtering across all Markdown documents in your workspace.
 - **Workspace Content Search (`Ctrl/Cmd + Shift + F`)**: High-performance regex or substring search across all files in the directory tree with line numbers and matched text previews.
 - **In-Document Search (`Ctrl/Cmd + F`)**: Real-time DOM highlighting with match counts and keyboard navigation (`Enter` / `Shift + Enter`).
 
-### 📑 Navigation & Table of Contents
+###  Navigation & Table of Contents
 - **Auto-Generated TOC**: Dynamic outline generated from document heading hierarchy (H1–H6).
 - **ScrollSpy Integration**: Automatically highlights the active section in the outline as you scroll through long articles.
 - **History Stack**: Browser-style Back (`Ctrl + [`) and Forward (`Ctrl + ]`) navigation between visited documents.
 - **Relative Path Resolution**: Click links pointing to relative markdown files (e.g. `[Next Step](./setup.md)`) to open them immediately in the reader.
 - **Local Image Rendering**: Resolves and renders local relative image paths via Tauri's asset streaming protocol.
 
-### 🎨 Clean, Accessible UI & Ergonomics
+###  Clean, Accessible UI & Ergonomics
 - **Modern Design System**: Clean typography, refined spacing, and subtle borders built with Tailwind CSS.
 - **Theme Modes**: Supports **Light Mode**, **Dark Mode**, and **System Default** (automatically syncing with OS preference changes).
 - **Reading Controls**: Instant adjustment of font size (12px–32px) and reading container width (Narrow, Medium, Wide, Full).
@@ -71,7 +71,7 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -88,7 +88,7 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 
 ---
 
-## 🏛️ Architecture
+##  Architecture
 
 MarkView strictly separates native operating system responsibilities from UI presentation:
 
@@ -150,7 +150,7 @@ MarkView/
 
 ---
 
-## 🔒 Security Model
+##  Security Model
 
 Security is a primary design tenet of MarkView:
 
@@ -162,7 +162,7 @@ Security is a primary design tenet of MarkView:
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -183,7 +183,7 @@ Security is a primary design tenet of MarkView:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -232,7 +232,7 @@ npm run test:all
 
 ---
 
-## 📦 Building and Packaging
+##  Building and Packaging
 
 To produce native production bundles:
 
@@ -256,7 +256,7 @@ Generated installer artifacts will be created in `src-tauri/target/release/bundl
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -268,6 +268,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
