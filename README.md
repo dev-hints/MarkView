@@ -36,7 +36,7 @@ Unlike lightweight web wrappers or browser extensions, MarkView combines native 
 
 ##  Features
 
-### 📖 High-Fidelity Markdown Rendering
+###  High-Fidelity Markdown Rendering
 - **CommonMark & GFM Support**: Full support for tables, task lists (`- [x]`), strikethrough, autolinks, and footnotes.
 - **Code Highlighting with Shiki**: Accurate syntax highlighting for 25+ programming and markup languages (Rust, Go, TypeScript, Python, C++, Bash, SQL, JSON, YAML, etc.) with theme switching (GitHub Dark/Light, One Dark Pro, Nord, Dracula, Vitesse) and one-click code copying.
 - **Math Equations**: Seamless KaTeX rendering for inline (`$...$`) and block (`$$...$$`) mathematical formulas.
